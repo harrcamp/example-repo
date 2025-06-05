@@ -1,0 +1,5 @@
+For well-structured pseudocode, follow these additional principles:
+- Maintain a one-to-one correspondence between lines and actions;
+- Use consistent capitalization for keywords;
+- Concentrate on outlining the logical flow rather than specific syntax;
+- Meticulously include all necessary steps to prevent omissions in your program's design

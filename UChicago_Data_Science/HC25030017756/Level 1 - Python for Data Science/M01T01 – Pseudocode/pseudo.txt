@@ -1,0 +1,60 @@
+scenario 1: an algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value,
+then determines and outputs the largest of the numbers that were entered.
+
+    prompt user to enter a number
+        check if the number is less than 0,
+        if yes then return an error and request another number
+    store the number in a list
+    when 0 is entered sort the list in descending order
+        print first number in the list
+        print list
+
+scenario 2: an algorithm that requests a user to input their name and then stores their name in a variable called 
+first_name. Subsequently, the algorithm should print out first_name along with the phrase "Hello, World".
+
+    prompt user to enter their first name
+        check the input for numbers
+        return error and request name again until only letters are entered
+    assign input to variable first_name
+    print first_name combined with "Hello, World" in one line
+
+scenario 3: an algorithm that reads an arbitrary number of integers and then returns their arithmetic average
+
+    input integers and store in a list
+    count numbers in the list
+        store value as variable number_of_integers
+    calculate the sum of the numbers in the list
+        store value as variable sum_of_integers
+    divide variable sum_of_integers by number_of_integers
+    print result
+
+scenario 4: an algorithm that reads a grocery list and prints out the products (in alphabetical order) that
+are still left to buy
+
+    prompt user to enter text values for grocery list items and 
+        store values in a list
+        check for duplicates and remove from list
+        sort list in alphabetical order
+    repeat until user enters "List Complete" 
+
+    prompt user to enter text values in the list
+        Check for item in the list
+            return error if entered value is not in list
+            remove value if item is in list 
+        sort list in alphabetical order 
+        print list 
+    repeat until list is empty then print "You're done shopping!"
+
+    scenario 5: an algorithm for the flow chart on the following page:  
+
+        read first input and store as variable X
+            print variable X
+        read second input and store as variable Y
+            print variable Y
+        calculate sum X and Y 
+            store sum as variable S
+        calculate variable S divided by 2
+            store calculation as vairable A
+        calculate X multiplied by Y
+            store calculation as variabl P
+        print variables S, A, P
